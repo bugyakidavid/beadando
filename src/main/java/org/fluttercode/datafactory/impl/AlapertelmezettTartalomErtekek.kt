@@ -63,7 +63,10 @@ import org.fluttercode.datafactory.TartalomErtekek
                 "should", "have", "generated", "this", "text", "automatically",
                 "so", "will", "from", "the", "web", "ending", "badly", "library",
                 "handled", "books", "constantly", "headphones", "of", "ill", "on",
-                "it's", "sill", "sits", "sofa")
+                "it's", "sill", "sits", "sofa", "szék", "ágy", "asztal", "lámpa",
+                "gép", "lép", "állvány", "ing", "telefon", "töltő", "hangszóró",
+                "televízió", "póló"
+                )
         private val businessTypes = arrayOf("Furnishings", "Bakery",
                 "Accounting", "Textiles", "Manufacturing", "Industries",
                 "Pro Services", "Landscaping", "Realty", "Travel",
@@ -72,7 +75,7 @@ import org.fluttercode.datafactory.TartalomErtekek
                 "Signs", "Development", "Studios", "Engineering", "Development")
         private val emailHosts = arrayOf("gma1l", "hotma1l", "yah00",
                 "somema1l", "everyma1l", "ma1lbox", "b1zmail", "ma1l2u")
-        private val tlds = arrayOf("org", "net", "com", "biz", "us", "co.uk")
+        private val tlds = arrayOf("org", "net", "com", "biz", "us", "co.uk", "hu")
     }
 
 }

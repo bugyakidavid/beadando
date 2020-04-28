@@ -41,7 +41,7 @@ import org.fluttercode.datafactory.AdatErtekek
     }
 
     companion object {
-        private val vegzodesek = arrayOf("II", "III", "Phd", "Jr", "Sr")
+        private val vegzodesek = arrayOf("II", "III", "Phd", "Jr", "Sr", "Dr")
         private val elotagok = arrayOf("Mr", "Mrs", "Ms")
         private val keresztNevek = arrayOf("Aaron", "Abby", "Abigail", "Adam",
                 "Alan", "Albert", "Alex", "Alexandra", "Alexis", "Alice", "Alicia",
@@ -124,7 +124,10 @@ import org.fluttercode.datafactory.AdatErtekek
                 "Vanessa", "Vernon", "Veronica", "Vicki", "Vickie", "Vicky",
                 "Victor", "Victoria", "Vincent", "Virginia", "Vivian", "Walter",
                 "Wanda", "Wayne", "Wendy", "Wesley", "Whitney", "William",
-                "Willie", "Wyatt", "Zachary")
+                "Willie", "Wyatt", "Zachary", "Dávid", "Bálint", "Kiara", "Bianka",
+                "Fanni", "Flóra", "Tímea", "Péter", "Levente", "Mátyás", "Szimonetta",
+                "Petra", "Nelli", "Zsófia", "Csaba"
+                )
         private val vezetekNevek = arrayOf("Abbott", "Acevedo", "Acosta",
                 "Adams", "Adkins", "Aguilar", "Aguirre", "Albert", "Alexander",
                 "Alford", "Allen", "Allison", "Alston", "Alvarado", "Alvarez",
@@ -285,7 +288,10 @@ import org.fluttercode.datafactory.AdatErtekek
                 "Winters", "Wise", "Witt", "Wolf", "Wolfe", "Wong", "Wood",
                 "Woodard", "Woods", "Woodward", "Wooten", "Workman", "Wright",
                 "Wyatt", "Wynn", "Yang", "Yates", "York", "Young", "Zamora",
-                "Zimmerman"
+                "Zimmerman", "Zeller", "Bugyáki", "Bencze", "Hegedűs", "Szabó",
+                "Gál", "Varga", "Ács", "Szilágyi", "Keresztesi", "Palásti",
+                "Orosz", "Egyed", "Elek", "Somogyi", "Tóth", "Éles", "Hári",
+                "Szmetán"
         )
     }
 }

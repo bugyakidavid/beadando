@@ -268,13 +268,15 @@ import org.fluttercode.datafactory.CimErtekek
                 "Winlwood", "Winter", "Winton", "Wise", "Wisteria", "Wogan",
                 "Wolfe", "Wolford", "Woodberry", "Woodbrook", "Woodland",
                 "Woodlawn", "Woolper", "Workman", "Wortman", "Wrexham", "Yale",
-                "Yingling", "Yost", "Young", "Zane", "Zanesville", "Zella"
+                "Yingling", "Yost", "Young", "Zane", "Zanesville", "Zella", "Dózsa György",
+                "Petőfi Sánodr", "Új", "Fő", "Kossuth Lajos", "Stadion", "Egyetem", "Tüzér",
+                "József Attila"
         )
         private val addressSuffixes = arrayOf("Avenue", "Boulevard",
                 "Circle", "Crescent", "Court", "Drive", "Heights", "Lane", "Park",
                 "Path", "Parkway", "Place", "Road", "Ridge", "Run", "Square",
                 "Street", "Station", "Terrace", "Trail", "Way", "Rd", "Ln", "St",
-                "Blvd", "Ave", "Drv")
+                "Blvd", "Ave", "Drv", "Utca", "Út", "Körút", "Tér")
         private val cities = arrayOf("Abba", "Abbeville", "Acworth",
                 "Adairsville", "Adel", "Adrian", "Ailey", "Alamo", "Alapaha",
                 "Albany", "Allenhurst", "Alma", "Alma", "Alpharetta", "Alston",
@@ -370,6 +372,9 @@ import org.fluttercode.datafactory.CimErtekek
                 "West Green", "West Point", "Westwood", "Whigham", "White Oak",
                 "Whitmarsh Island", "Willacoochee", "Wilmington Island", "Winder",
                 "Winokur", "Withers", "Woodbine", "Woodstock", "Worth", "Wray",
-                "Wrightsville")
+                "Wrightsville", "Dávod", "Veszprém", "Baja", "Budapest", "Mezőkövesd",
+                "Székesfehérvár", "Kecskemét", "Dabas", "Eger", "Salgótarján",
+                "Simontornya", "Cece", "Szekszárd"
+                )
     }
 }
