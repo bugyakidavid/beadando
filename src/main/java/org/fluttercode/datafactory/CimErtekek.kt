@@ -1,4 +1,4 @@
-package org.fluttercode.datafactory;
+package org.fluttercode.datafactory
 
 /*
  * Copyright 2011, Andrew M Gibson
@@ -22,14 +22,21 @@ package org.fluttercode.datafactory;
  * along with DataFactory.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
+interface CimErtekek {
+    /**
+     * @return Array of street address
+     */
+    fun getUcaNevek(): Array<String>
 
-public interface ContentDataValues {
+    /**
+     * @return Array of cities
+     */
+    fun getVarosok(): Array<String>
 
-	String[] getWords();
+    /**
+     * Returns a list of address suffixes such as "Lane", "Drive","Parkway"
+     * @return Array of address suffixes
+     */
+    fun getCimVegzodesek(): Array<String>
 
-	String[] getBusinessTypes();
-
-	String[] getEmailHosts();
-
-	String[] getTlds();
 }
